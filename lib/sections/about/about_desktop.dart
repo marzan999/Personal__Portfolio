@@ -102,11 +102,11 @@ class AboutDesktop extends StatelessWidget {
                             children: const [
                               AboutMeData(
                                 data: "Name",
-                                information: "Muhammad Hamza",
+                                information: "Marzan Islam",
                               ),
                               AboutMeData(
                                 data: "Age",
-                                information: "24",
+                                information: "23",
                               ),
                             ],
                           ),
@@ -116,11 +116,11 @@ class AboutDesktop extends StatelessWidget {
                             children: const [
                               AboutMeData(
                                 data: "Email",
-                                information: "hamza.6.shakeel@gmail.com",
+                                information: "marzanislam999@gmail.com",
                               ),
                               AboutMeData(
                                 data: "From",
-                                information: "Attock, PK",
+                                information: "Dhaka, Bangladesh",
                               ),
                             ],
                           ),
@@ -141,11 +141,7 @@ class AboutDesktop extends StatelessWidget {
                             ),
                           ),
                           Space.x1!,
-                          Container(
-                            color: Colors.grey[900]!,
-                            width: AppDimensions.normalize(30),
-                            height: AppDimensions.normalize(0.5),
-                          ),
+                         
                           ...WorkUtils.logos.asMap().entries.map(
                                 (e) => Expanded(
                                   child: CommunityIconBtn(

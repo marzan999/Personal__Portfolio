@@ -98,11 +98,11 @@ class AboutTab extends StatelessWidget {
                 children: const [
                   AboutMeData(
                     data: "Name",
-                    information: "Muhammad Hamza",
+                    information: "Marzan Islam",
                   ),
                   AboutMeData(
                     data: "Age",
-                    information: "24",
+                    information: "23",
                   ),
                 ],
               ),
@@ -114,11 +114,11 @@ class AboutTab extends StatelessWidget {
                 children: const [
                   AboutMeData(
                     data: "Email",
-                    information: "hamza.6.shakeel@gmail.com",
+                    information: "marzanislam999@gmail.com",
                   ),
                   AboutMeData(
                     data: "From",
-                    information: "Attock, PK",
+                    information: "Dhaka, Bangladesh",
                   ),
                 ],
               ),
@@ -138,17 +138,17 @@ class AboutTab extends StatelessWidget {
                 ),
               ),
               Space.x!,
-              Container(
-                width: width * 0.05,
-                decoration: BoxDecoration(
-                  border: Border(
-                    bottom: BorderSide(
-                      color: Colors.grey[900]!,
-                      width: 2.0,
-                    ),
-                  ),
-                ),
-              ),
+              // Container(
+              //   width: width * 0.05,
+              //   decoration: BoxDecoration(
+              //     border: Border(
+              //       bottom: BorderSide(
+              //         color: Colors.grey[900]!,
+              //         width: 2.0,
+              //       ),
+              //     ),
+              //   ),
+              // ),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: Row(
