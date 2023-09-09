@@ -34,22 +34,20 @@ class StaticUtils {
     "https://img.icons8.com/android/480/ffffff/twitter.png",
     "https://img.icons8.com/metro/308/ffffff/linkedin.png",
     "https://img.icons8.com/material-rounded/384/ffffff/github.png",
-    "https://img.icons8.com/ios-filled/500/ffffff/medium-monogram--v1.png"
   ];
 
   static const List<String> socialLinks = [
-    "https://facebook.com/mhmzdev",
-    "https://instagram.com/mhmzdev",
-    "https://twitter.com/mhmzdev",
-    "https://linkedin.com/in/mhmzdev",
-    "https://github.com/mhmzdev",
-    "https://mhmzdev.medium.com"
+    "https://www.facebook.com/marzan.49",
+    "https://www.instagram.com/mar_zaan/",
+    "https://twitter.com/ZaanMar",
+    "https://www.linkedin.com/in/marzan-islam-919890202",
+    "https://github.com/marzan999",
   ];
 
   static const String resume =
-      'https://drive.google.com/file/d/1bDNNrkQtNVJbXcdwMSx0crQQvAF_nMwV/view?usp=sharing';
+      'https://drive.google.com/drive/folders/1UaJCj6ToC4roaiGKNHHZVlmlMmMEwr7t';
 
-  static const String gitHub = 'https://github.com/mhmzdev';
+  static const String gitHub = 'https://github.com/marzan999';
 }
 
 class BodyUtils {
